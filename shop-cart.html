@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Shop Cart</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" type='text/css'>
+    <link href='fonts/font-awesome/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='fonts/lovelo/stylesheet.css' rel='stylesheet' type='text/css'>
+
+    <link href='css/owl.carousel.css' rel='stylesheet' type='text/css'>
+    <link href='css/owl.theme.css' rel='stylesheet' type='text/css'>
+    <link href="css/custom.css" rel="stylesheet" type='text/css'>
+
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--Start class site-->
+<div class="tz-site">
+
+    <!--Start id tz header-->
+    <header id="tz-header" class="bk-white">
+        <div class="container">
+
+           <!--Start class header top-->
+                <div class="header-top">
+                    <ul class="pull-left">
+                        <li>
+                            <a href="#">
+                                ARS
+                                <span class="fa fa-angle-down tz-down"></span>
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="#">USD</a>
+                                </li>
+                                <li>
+                                    <a href="#">EUR</a>
+                                </li>
+                                <li>
+                                    <a href="#">UYU</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Español
+                                <span class="fa fa-angle-down tz-down"></span>
+                            </a>
+                             <ul class="sub-menu">
+                                <li>
+                                    <a href="#">Inglés</a>
+                                </li>
+                              
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Tel: +1122334455</a>
+                        </li>
+                    </ul>
+                    <ul class="pull-right">
+                        <li>
+                            <a href="shop-register.html">Cuenta</a>
+                        </li>
+                        <li>
+                            <a href="#">Lista de productos</a>
+                        </li>
+                        <li>
+                            <a href="shop-cart.html">Carrito</a>
+                        </li>
+                        <li>
+                            <a href="shop-checkout.html">Checkout</a>
+                        </li>
+                        <li class="tz-header-login">
+                            <a href="#">Login</a>
+                            <div class="tz-login-form">
+                                <form>
+                                    <p class="form-content">
+                                        <label for="username">Usuario / Email</label>
+                                        <input type="text" name="username" id="username" value="">
+                                    </p>
+                                    <p class="form-content">
+                                        <label for="password">Contraseña</label>
+                                        <input type="password" name="username" id="password" value="">
+                                    </p>
+                                    <p class="form-footer">
+                                        <a href="#">Olvidaste tu <br>contraseña?</a>
+                                        <button type="submit" class="pull-right button_class">INGRESAR</button>
+                                    </p>
+                                    <p class="form-text">
+                                        No tienes cuenta aún? <a href="shop-register.html">Registrate aquí</a>
+                                    </p>
+                                </form>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--End class header top-->
+
+            <!--Start header content-->
+                <div class="header-content">
+                    <h3 class="tz-logo pull-left"><a href="index.html"><img src="images/logo.png" alt="home" /></a></h3>
+                    <div class="tz-search pull-right">
+
+                        <!--Start form search-->
+                        <form>
+                            <label class="select-arrow">
+                                <select name="category">
+                                    <option value="">Categorías</option>
+                                    <option value="#">Bicis1</option>
+                                    <option value="#">Bicis2</option>
+                                    <option value="#">Bicis3</option>
+                                    <option value="#">Bicis4</option>
+                                    <option value="#">Bicis5</option>
+                                </select>
+                            </label>
+                            <input type="text" class="tz-query" id="tz-query" value="" placeholder="Buscar productos">
+                            <button type="submit"></button>
+                        </form>
+                        <!--End Form search-->
+
+                        <!--live search-->
+                        <div class="live-search">
+                            <ul>
+                                <li>
+                                    <div class="live-img"><img src="images/product/product-search1.jpg" alt="product search one"></div>
+                                    <div class="live-search-content">
+                                        <h6><a href="single-product.html">Defy Advanced</a></h6>
+                                        <span class="live-meta">
+                                            <a href="single-product.html">$2650.00</a>
+                                            <span class="product-color">
+                                                <i class="light-blue"></i>
+                                                <i class="orange"></i>
+                                                <i class="orange-dark"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="live-img"><img src="images/product/product-search2.jpg" alt="product search two"></div>
+                                    <div class="live-search-content">
+                                        <h6><a href="single-product.html">Defy Advanced</a></h6>
+                                        <span class="live-meta">
+                                            <a href="single-product.html">$2650.00</a>
+                                            <span class="product-color">
+                                                <i class="light-blue"></i>
+                                                <i class="orange"></i>
+                                                <i class="blueviolet"></i>
+                                                <i class="orange-dark"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="live-img"><img src="images/product/product-search3.jpg" alt="product search one"></div>
+                                    <div class="live-search-content">
+                                        <h6><a href="single-product.html">Defy Advanced</a></h6>
+                                        <span class="live-meta">
+                                            <a href="single-product.html">$2650.00</a>
+                                            <span class="product-color">
+                                                <i class="blueviolet"></i>
+                                                <i class="light-blue"></i>
+                                                <i class="orange-dark"></i>
+                                                <i class="orange"></i>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--End live search-->
+                    </div>
+                </div>
+                <!--End class header content-->
+        </div>
+
+        <!--Start main menu -->
+        <nav class="tz-menu-primary">
+            <div class="container">
+
+                  <!--Main Menu-->
+        <ul class="tz-main-menu pull-left nav-collapse">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="shop.html">
+                    Categorías
+                    <span class="red-light">¡En oferta!</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="shop.html">Tienda</a>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="shop-rightsidebar.html">Tienda (con barra derecha)</a>
+                    </li>
+                    <li>
+                        <a href="shop-cart.html">Carrito de compras</a>
+                    </li>
+                    <li>
+                        <a href="shop-checkout.html">Finalizar compra</a>
+                    </li>
+                    <li>
+                        <a href="shop-register.html">Registrarse</a>
+                    </li>
+                    <li>
+                        <a href="single-product.html">Detalle del producto</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="blog.html">
+                    Blog
+                    <span class="cyan-dark">¡Lo mejor!</span>
+                </a>
+                <ul class="sub-menu">
+                    <li>
+                        <a href="blog-right.html">Blog (barra derecha)</a>
+                    </li>
+                    <li>
+                        <a href="single-blog.html">Entrada individual</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="contact.html">Contacto</a>
+            </li>
+        </ul>
+        <!--End Main menu-->
+
+
+                
+               <!--Shop meta-->
+        <ul class="tz-ecommerce-meta pull-right">
+            <li class="tz-menu-wishlist">
+                <a href="#"><strong>0</strong></a>
+            </li>
+            <li class="tz-mini-cart">
+                <a href="shop-cart.html"><strong>2</strong>Carrito : $199.000</a>
+
+                <!--Mini cart-->
+                <ul class="cart-inner">
+                    <li class="mini-cart-content">
+                        <div class="mini-cart-img"><img src="images/product/product-cart1.png" alt="Producto 1 Maxibicis"></div>
+                        <div class="mini-cart-ds">
+                            <h6><a href="single-product.html">Pantalón Ciclista Pro</a></h6>
+                            <span class="mini-cart-meta">
+                                <a href="single-product.html">$132.000</a>
+                                <span class="mini-meta">
+                                   <span class="mini-color">Color: <i class="orange"></i></span>
+                                   <span class="mini-qty">Cantidad: 2</span>
+                                </span>
+                            </span>
+                        </div>
+                        <span class="mini-cart-delete"><img src="images/delete.png" alt="eliminar"></span>
+                    </li>
+                    <li class="mini-cart-content">
+                        <div class="mini-cart-img"><img src="images/product/product-cart2.png" alt="Producto 2 Maxibicis"></div>
+                        <div class="mini-cart-ds">
+                            <h6><a href="single-product.html">Pedales Urbanos Sport</a></h6>
+                            <span class="mini-cart-meta">
+                                <a href="single-product.html">$45.000</a>
+                                <span class="mini-meta">
+                                   <span class="mini-color">Color: <i class="orange"></i></span>
+                                   <span class="mini-qty">Cantidad: 3</span>
+                                </span>
+                            </span>
+                        </div>
+                        <span class="mini-cart-delete"><img src="images/delete.png" alt="eliminar"></span>
+                    </li>
+                    <li class="mini-cart-content">
+                        <div class="mini-cart-img"><img src="images/product/product-cart3.png" alt="Producto 3 Maxibicis"></div>
+                        <div class="mini-cart-ds">
+                            <h6><a href="single-product.html">Brillo para Bicicleta</a></h6>
+                            <span class="mini-cart-meta">
+                                <a href="single-product.html">$22.000</a>
+                                <span class="mini-meta">
+                                   <span class="mini-color">Color: <i class="orange"></i></span>
+                                   <span class="mini-qty">Cantidad: 1</span>
+                                </span>
+                            </span>
+                        </div>
+                        <span class="mini-cart-delete"><img src="images/delete.png" alt="eliminar"></span>
+                    </li>
+                    <li class="mini-subtotal">
+                        <span class="subtotal-content">
+                            Subtotal:
+                            <strong class="pull-right">$199.000</strong>
+                        </span>
+                    </li>
+                    <li class="mini-footer">
+                        <a href="shop-cart.html" class="view-cart">Ver carrito</a>
+                        <a href="shop-checkout.html" class="check-out">Finalizar compra</a>
+                    </li>
+                </ul>
+                <!--End mini cart-->
+
+            </li>
+        </ul>
+        <!--End Shop meta-->
+
+                <!--navigation mobi-->
+                <button data-target=".nav-collapse" class="btn-navbar tz_icon_menu" type="button">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <!--End navigation mobi-->
+            </div>
+        </nav>
+        <!--End stat main menu-->
+
+    </header>
+    <!--End id tz header-->
+
+    <section class="shop-checkout">
+        <div class="container">
+            <!--Start Breadcrumbs-->
+            <ul class="tz-breadcrumbs">
+                <li>
+                    <a href="#">Inicio</a>
+                </li>
+                <li class="current">
+                    Carrito
+                </li>
+            </ul>
+            <!--End Breadcrumbs-->
+            <h1 class="page-title">Carrito</h1>
+
+           <!--Start form table-->
+<form>
+    <table class="shop_table cart">
+        <!--Table header-->
+        <thead>
+            <tr>
+                <th class="product-remove">&nbsp;</th>
+                <th class="product-thumbnail">Producto</th>
+                <th class="product-name">&nbsp;</th>
+                <th class="product-price">Precio</th>
+                <th class="product-quantity">Cantidad</th>
+                <th class="product-subtotal">Total</th>
+            </tr>
+        </thead>
+        <!--End table header-->
+
+        <!--Table body-->
+        <tbody>
+
+            <tr class="cart_item">
+                <td class="product-remove">
+                    <a href="#" class="remove" title="Eliminar este producto"></a>
+                </td>
+                <td class="product-thumbnail">
+                    <a href="single-product.html"><img src="images/product/widget1.jpg" alt="Producto en carrito" /></a>
+                </td>
+
+                <td class="product-name">
+                    <a href="single-product.html">Short Maxibici Competición</a>
+                    <span class="color">
+                        Color: <i class="orange"></i>
+                    </span>
+                </td>
+                <td class="product-price">
+                    <span class="amount">$20.00</span>
+                </td>
+
+                <td class="product-quantity">
+                    <div class="quantity">
+                        <input type="number" step="1" min="0" name="cart" value="1" title="Cantidad" class="input-text qty text" size="4">
+                    </div>
+                </td>
+
+                <td class="product-subtotal">
+                    <span class="amount">$229.00</span>
+                </td>
+            </tr>
+
+            <tr class="cart_item">
+                <td class="product-remove">
+                    <a href="#" class="remove" title="Eliminar este producto"></a>
+                </td>
+                <td class="product-thumbnail">
+                    <a href="single-product.html"><img src="images/product/widget2.jpg" alt="Producto en carrito" /></a>
+                </td>
+
+                <td class="product-name">
+                    <a href="single-product.html">Pedales Urbanos Sport</a>
+                    <span class="color">
+                        Color: <i class="light-blue"></i>
+                    </span>
+                </td>
+                <td class="product-price">
+                    <span class="amount">$20.00</span>
+                </td>
+
+                <td class="product-quantity">
+                    <div class="quantity">
+                        <input type="number" step="1" min="0" name="cart" value="1" title="Cantidad" class="input-text qty text" size="4">
+                    </div>
+                </td>
+
+                <td class="product-subtotal">
+                    <span class="amount">$229.00</span>
+                </td>
+            </tr>
+
+            <tr class="cart_item">
+                <td class="product-remove">
+                    <a href="#" class="remove" title="Eliminar este producto"></a>
+                </td>
+                <td class="product-thumbnail">
+                    <a href="single-product.html"><img src="images/product/widget3.jpg" alt="Producto en carrito" /></a>
+                </td>
+
+                <td class="product-name">
+                    <a href="single-product.html">Brillo para Bicicleta</a>
+                    <span class="color">
+                        Color: <i class="red-light"></i>
+                    </span>
+                </td>
+                <td class="product-price">
+                    <span class="amount">$20.00</span>
+                </td>
+
+                <td class="product-quantity">
+                    <div class="quantity">
+                        <input type="number" step="1" min="0" name="cart" value="1" title="Cantidad" class="input-text qty text" size="4">
+                    </div>
+                </td>
+
+                <td class="product-subtotal">
+                    <span class="amount">$229.00</span>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="actions" colspan="6">
+                    <a class="back-shop" href="#"><i class="fa fa-angle-left"></i> Volver a la tienda</a>
+                    <button class="update-cart" type="submit">Actualizar carrito</button>
+                </td>
+            </tr>
+
+        </tbody>
+        <!--End table body-->
+    </table>
+</form>
+<!--End form table-->
+
+
+           <!--Cart attr-->
+<div class="row">
+    <div class="col-md-6 col-sm-6">
+        <!--Coupon-->
+        <div class="coupon">
+            <h3>Cupón de descuento</h3>
+            <form>
+                <p>Ingresá tu código de cupón si tenés uno.</p>
+                <input type="text" name="coupon_code" class="input-text" id="coupon_code" value="" placeholder="Código de cupón">
+                <input type="submit" class="button" name="apply_coupon" value="Aplicar cupón">
+            </form>
+        </div>
+        <!--End coupon-->
+    </div>
+    <div class="col-md-6 col-sm-6">
+
+        <!--Cart totals-->
+        <div class="cart_totals">
+            <div class="cart_totals_inner">
+                <table>
+                    <tbody>
+                        <tr class="cart-subtotal">
+                            <th>Subtotal</th>
+                            <td><span class="amount">$293.00</span></td>
+                        </tr>
+                        <tr class="shipping">
+                            <th>Envío y manipulación</th>
+                            <td>
+                                <form class="shop-shipping-calculator" method="post">
+                                    <p class="form-r">
+                                        <input type="checkbox" name="rate" value="1" />
+                                        <span>
+                                            Tarifa fija:
+                                            <span class="price">
+                                                $30.00
+                                            </span>
+                                        </span>
+                                    </p>
+                                    <p class="form-r">
+                                        <input type="checkbox" name="international" value="1" />
+                                        <span>
+                                            Envío internacional:
+                                            <span class="price">
+                                                $150.00
+                                            </span>
+                                        </span>
+                                    </p>
+                                    <p class="form-r">
+                                        <input type="checkbox" name="rate" value="1" />
+                                        <span>
+                                            Envío local:
+                                            <span class="price">
+                                                $90.00
+                                            </span>
+                                        </span>
+                                    </p>
+                                    <p class="form-r">
+                                        <input type="checkbox" name="pickup" value="1" />
+                                        <span>Retiro en tienda (Gratis)</span>
+                                    </p>
+                                </form>
+                            </td>
+                        </tr>
+                        <tr class="order-total">
+                            <th>Total del pedido</th>
+                            <td><span class="amount">$293.00</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--End cart totals-->
+
+    </div>
+</div>
+<!--End cart attr-->
+
+        </div>
+    </section>
+
+    <!--Start Footer-->
+    <footer class="tz-footer">
+        <div class="footer-widget">
+            <div class="container">
+
+                 <!--Start footer left-->
+<div class="footer-left">
+    <div class="contact-info widget">
+        <h3 class="widget-title">Información de contacto</h3>
+        <p>En Maxibicis te asesoramos para que elijas la bici perfecta. Estamos para ayudarte.</p>
+        <ul>
+            <li>
+                <span>Dirección:</span>
+                <address>
+                    Av. Bicicletas 123, Ciudad Autónoma de Buenos Aires,<br> Argentina, C1000
+                </address>
+            </li>
+            <li>
+                <span>Teléfono:</span>
+                (011) 2345-6789
+            </li>
+            <li>
+                <span>Email:</span>
+                contacto@maxibicis.com.ar
+            </li>
+        </ul>
+    </div>
+    <div class="widget">
+        <form class="tz-subcribe">
+            <input type="text" name="sub" value="" placeholder="Ingresá tu correo electrónico...">
+            <input type="submit" name="subscribe" value="Suscribirme">
+        </form>
+    </div>
+    <div class="widget">
+        <ul class="tz-social">
+            <li>
+                <a class="fa fa-facebook" href="#"></a>
+            </li>
+            <li>
+                <a class="fa fa-twitter" href="#"></a>
+            </li>
+            <li>
+                <a class="fa fa-instagram" href="#"></a>
+            </li>
+            <li>
+                <a class="fa fa-youtube" href="#"></a>
+            </li>
+            <li>
+                <a class="fa fa-whatsapp" href="#"></a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--End footer left-->
+
+              <!--Start footer right-->
+<div class="footer-right">
+    <div class="tz-widget-clients widget">
+        <h3 class="widget-title">¿Qué dicen nuestros clientes?</h3>
+        <div class="tz-widget-say">
+            <img src="images/say.jpg" alt="Kathy Young">
+            <div class="entry-say">
+                <p>Excelente atención y asesoramiento. Compré mi bicicleta online y llegó en perfectas condiciones. ¡Recomiendo Maxibicis!</p>
+                <span>Cliente</span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="widget widget_nav_menu">
+                <h3 class="widget-title">CÓMO COMPRAR</h3>
+                <ul>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                    <li><a href="#">Mapa del sitio</a></li>
+                    <li><a href="#">Marcas</a></li>
+                    <li><a href="#">Tarjetas de regalo</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="widget widget_nav_menu">
+                <h3 class="widget-title">MI CUENTA</h3>
+                <ul>
+                    <li><a href="#">Mi cuenta</a></li>
+                    <li><a href="#">Historial de pedidos</a></li>
+                    <li><a href="#">Lista de deseos</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Promociones</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="widget widget_nav_menu">
+                <h3 class="widget-title">INFORMACIÓN</h3>
+                <ul>
+                    <li><a href="#">Quiénes somos</a></li>
+                    <li><a href="#">Devoluciones</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End footer right-->
+  </div>
+            </div>
+            <div class="tz-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <p>MaxiBicis | Todos los derechos reservados.</p>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="pull-right">
+                                <span class="payments-method">
+                                    <a href="#"><img src="images/Visa.png" alt="visa"></a>
+                                    <a href="#"><img src="images/Intersection.png" alt="Intersection"></a>
+                                    <a href="#"><img src="images/ebay.png" alt="ebay"></a>
+                                    <a href="#"><img src="images/Amazon.png" alt="Amazon"></a>
+                                    <a href="#"><img src="images/Discover.png" alt="Discover"></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--End Footer-->
+
+</div><!--End class site-->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/off-canvas.js"></script>
+<!--jQuery Countdow-->
+<script src="js/jquery.plugin.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<!--End Countdow-->
+
+<script src="js/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
